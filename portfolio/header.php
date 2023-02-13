@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="/images/oeil-sauron.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="style.css">
     <?php wp_head() ?>
 </head>
@@ -65,7 +64,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card text-center" style="width: 18rem;">
-                        <img src="images/lacoste jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
+                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/lacoste-jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
                         <div class="card-body">
                             <h5 class="card-title">A propos de moi</h5>
                             <p class="card-text">Je m’appelle Jonathan
@@ -81,7 +80,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="images/retro-games.jpg" class="card-img-top" alt="image retro-games">
+                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/retro-games.jpg" class="card-img-top" alt="image retro-games">
                         <div class="card-body">
                             <h5 class="card-title">Centre d'intèrets</h5>
                             <ul>
