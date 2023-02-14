@@ -182,11 +182,14 @@ Theme Name: portfolio
     background-size: cover;
     background-color: black;
 }
+/* .row{
+    min-height: 720px;
+} */
 
 .card {
     border: 3px solid white;
     width: 300px;
-    height: 300px;
+    height: 720px;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.36, -0.36, 0.7, 1.36);
     margin-top: 20px;
@@ -202,7 +205,7 @@ Theme Name: portfolio
 .card-body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
-    height: 300px;
+    height: 700px;
 }
 
 .card-img-top {
@@ -240,14 +243,6 @@ Theme Name: portfolio
 .card-body a {
     color: white;
 }
-
-.banana {
-    width: 290px;
-    height: 350px;
-    background-image: url("https://media.tenor.com/YNSlnGXnFi4AAAAC/dance-banana.gif");
-}
-
-
 
 .experiences {
     background-image: url('wp-content/uploads/2023/02/exagone-etoiles.jpg');
