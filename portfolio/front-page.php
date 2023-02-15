@@ -4,7 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card text-center" style="width: 18rem;">
-                        <img src="images/lacoste jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
+                        <img src="https://localhost/wordpress/wp-content/uploads/2023/02/lacoste-jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
                         <div class="card-body">
                             <h5 class="card-title">A propos de moi</h5>
                             <p class="card-text">Je m’appelle Jonathan
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="images/retro-games.jpg" class="card-img-top" alt="image retro-games">
+                        <img src="https://localhost/wordpress/wp-content/uploads/2023/02/retro-games.jpg" class="card-img-top" alt="image retro-games">
                         <div class="card-body">
                             <h5 class="card-title">Centre d'intèrets</h5>
                             <ul>
@@ -43,6 +43,54 @@
             </div>
         </div>
     </div>
+
+    <section class="experiences">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+                    <div class="card" style="width: 18rem justify-space-between;">
+                        <img src="https://localhost/wordpress/wp-content/uploads/2023/02/rythme-scolaire1.jpg" class="card-img-top" alt="image livre scolaire">
+                        <div class="card-body">
+                            <h5 class="card-title">Parcours scolaire</h5>
+                            <ul>
+                                <li>
+                                    <span>-Formation GRETA</span><span>-2022/2023</span>
+                                </li>
+                                <li>
+                                    <span>-BP Boulanger</span><span>-2001/2002</span>
+                                </li>
+                                <li>
+                                    <span>-CAP Boulanger</span><span>-1999/2001</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+                    <div class="card" style="width: 18rem justify-space-between;">
+                        <img src="https://localhost/wordpress/wp-content/uploads/2023/02/Entretien-Professionnel.jpg" class="card-img-top" alt="entretient pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Parcours professionnels</h5>
+                            <ul>
+                                <li>
+                                    <span>-Formation GRETA</span><span>-2022/2023</span>
+                                </li>
+                                <li>
+                                    <span>-Boulanger</span><span>-2012/2022</span>
+                                </li>
+                                <li>
+                                    <span>-Boulanger</span><span>-2006/2012</span>
+                                </li>
+                                <li>
+                                    <span>-Boulanger</span><span>-2003/2006</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Affichage du CPT compétences -->
     <?php wp_reset_postdata();?>
@@ -94,7 +142,6 @@
                             <div class="card-body">
                                 <h5 class="card-title"><?php the_title(); ?></h5>
                                 <p class="card-text"><?php the_content(); ?></p>
-                                <a href="https://worldtris.netlify.app"></a>
                             </div>
                         </div>
                     </div>

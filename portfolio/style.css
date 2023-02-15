@@ -116,9 +116,7 @@ Theme Name:portfolio
 }
 
 .header--main {
-    background-image: url("https://besthqwallpapers.com/Uploads/6-12-2021/186979/thumb2-yellow-3d-hexagons-4k-creative-hexagons-3d-texture-hexagons-patterns.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+ background-color: black;
 }
 
 .header--main h1 {
@@ -186,8 +184,8 @@ Theme Name:portfolio
 
 .card {
     border: 3px solid white;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 700px;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.36, -0.36, 0.7, 1.36);
     margin-top: 20px;
@@ -245,14 +243,6 @@ p{
     color: white;
 }
 
-.banana {
-    width: 290px;
-    height: 350px;
-    background-image: url("https://media.tenor.com/YNSlnGXnFi4AAAAC/dance-banana.gif");
-}
-
-
-
 .experiences {
     background-image: url('/images/exagone\ etoiles.jpg');
     background-color: black;
@@ -264,13 +254,6 @@ h5 {
 
 }
 
-.competences {
-    background-image: url('https://rare-gallery.com/mocahbig/88894-hexagon-abstract-hd-4k-artist-artwork-digital.jpg');
-    background-color: black;
-    background-size: cover;
-
-
-}
 
 footer {
     background-image: url('https://mobimg.b-cdn.net/v3/fetch/e7/e71d1184f754c23781814ed2c3d8abe5.jpeg');
