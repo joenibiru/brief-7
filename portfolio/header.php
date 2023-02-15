@@ -8,41 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <?php wp_head() ?>
 
 </head>
-<?php
-$args = array(
-    'post_type' => 'competences', 
-    'posts_per_page' => -1, 
-);
-$query = new WP_Query($args);
-if ($query->have_posts()) :
-    while ($query->have_posts()) : $query->the_post();
-        ?>
-        <div class="competence">
-            <h2><?php the_title(); ?></h2>
-            <?php
-            $competences_front_end = get_field('competences_front-end');
-            $competences_back_end = get_field('competences_back-end');
-            $outils_de_developpements = get_field('outils_de_developpements');
-            if ($competences_front_end) {
-                echo '<p>Compétences front-end : ' . $competences_front_end . '</p>';
-            }
-            if ($competences_back_end) {
-                echo '<p>Compétences back-end : ' . $competences_back_end . '</p>';
-            }
-            if ($outils_de_developpements) {
-                echo '<p>Outils de développements : ' . $outils_de_developpements . '</p>';
-            }
-            ?>
-        </div>
-        <?php
-    endwhile;
-endif;
-wp_reset_postdata();
-?>
+
 
 
 <body>
@@ -88,6 +57,3 @@ wp_reset_postdata();
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-

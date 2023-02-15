@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div class="main">
-    <div class="container">
+    <div class="main">
+        <div class="container">
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card text-center" style="width: 18rem;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/lacoste-jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
+                        <img src="images/lacoste jonathan.jpg" class="card-img-top" alt="ma photo-de-profil">
                         <div class="card-body">
                             <h5 class="card-title">A propos de moi</h5>
                             <p class="card-text">Je m’appelle Jonathan
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/retro-games.jpg" class="card-img-top" alt="image retro-games">
+                        <img src="images/retro-games.jpg" class="card-img-top" alt="image retro-games">
                         <div class="card-body">
                             <h5 class="card-title">Centre d'intèrets</h5>
                             <ul>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2023/02/mes-projets.jpg" class="card-img-top" alt="image ampoule">
+                        <div class="banana"></div>
                         <div class="card-body">
                             <h5 class="card-title">Mes projets</h5>
                             <ul>
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/rythme-scolaire1.jpg" class="card-img-top" alt="image livre scolaire">
+                        <img src="images/rythme-scolaire1.jpg" class="card-img-top" alt="image livre scolaire">
                         <div class="card-body">
                             <h5 class="card-title">Parcours scolaire</h5>
                             <ul>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/Entretien-Professionnel.jpg" class="card-img-top" alt="entretient pro">
+                        <img src="images/Entretien-Professionnel.jpg" class="card-img-top" alt="entretient pro">
                         <div class="card-body">
                             <h5 class="card-title">Parcours professionnels</h5>
                             <ul>
@@ -120,7 +120,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/5445998-personne-developpant-un-site-web-glyphe-illustration-de-developpeur-web-vectoriel.jpg"
+                        <img src="images/5445998-personne-developpant-un-site-web-glyphe-illustration-de-developpeur-web-vectoriel.jpg"
                             class="card-img-top" alt="dessin développeur">
                         <div class="card-body">
                             <h5 class="card-title">Compétences développeur</h5>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/depositphotos_233530300-stock-illustration-toolbox-icon-in-trendy-design.webp"
+                        <img src="images/depositphotos_233530300-stock-illustration-toolbox-icon-in-trendy-design.jpg"
                             class="card-img-top" alt="dessin boite a outil développeur">
                         <div class="card-body">
                             <h5 class="card-title">Compétences développeur</h5>
@@ -160,16 +160,13 @@
                                 <li>
                                     -Github
                                 </li>
-                                <li>
-                                    -WordPress
-                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
                     <div class="card" style="width: 18rem justify-space-between;">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2023/02/istockphoto-1151147796-612x612-1.jpg" class="card-img-top" alt="dessin de pains">
+                        <img src="images/istockphoto-1151147796-612x612.jpg" class="card-img-top" alt="dessin de pains">
                         <div class="card-body">
                             <h5 class="card-title">Compétences boulangerie</h5>
                             <ul>
